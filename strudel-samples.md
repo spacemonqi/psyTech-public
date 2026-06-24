@@ -131,7 +131,9 @@ That's it. Your samples are now available with short, clean names.
 3. Commit and push the changes to GitHub.
 4. In Strudel, force a fresh load (to bypass browser cache):
    ```javascript
-   samples('github:yourusername/psyTech-public?version=2')
+   // Do NOT append ?version= to the github: shortcut — it breaks URL parsing.
+   // Use the full raw URL instead:
+   samples('https://raw.githubusercontent.com/yourusername/psyTech-public/main/strudel.json?version=2')
    ```
 
 ---
@@ -160,7 +162,8 @@ samples('http://localhost:5432/')
 
 ## Tips & Troubleshooting
 
-- **Caching**: Strudel (and browsers) aggressively cache samples. Always append `?version=2` (or increment the number) when you update files on GitHub.
+- **Caching**: Strudel (and browsers) aggressively cache samples. Bump the version on the **full raw URL** (not the `github:` shortcut): `samples('https://raw.githubusercontent.com/.../strudel.json?version=2')`.
+- **`#` in filenames**: Encode as `%23` in `strudel.json` paths (e.g. `F%23min` not `F#min`), or rename files to avoid `#`.
 - **Pitched samples** (e.g. piano, melodic instruments): Use nested objects in `strudel.json`:
   ```json
   "piano": {
