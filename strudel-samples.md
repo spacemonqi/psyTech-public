@@ -109,14 +109,12 @@ You can also assign multiple variations to one name:
 In any Strudel REPL (strudel.cc), run:
 
 ```javascript
-// Recommended (jsDelivr CDN — avoids stale raw.githubusercontent.com cache):
-samples('https://cdn.jsdelivr.net/gh/spacemonqi/psyTech-public@main/strudel.json')
-
-// Or the github: shortcut:
-samples('github:spacemonqi/psyTech-public')
+samples('github:yourusername/psyTech-public')
 
 // Now play your samples:
-s("kick bonus dry_min")
+s("bd sd hh*8")
+s("breaks/0")     // First break (zero-indexed)
+s("atmos")
 ```
 
 That's it. Your samples are now available with short, clean names.
@@ -164,24 +162,7 @@ samples('http://localhost:5432/')
 
 ## Tips & Troubleshooting
 
-- **`error loading strudel.json`**: Strudel's service worker may have cached a 404 from before the file existed. Fixes (try in order):
-  1. **Clear site data** for strudel.cc (DevTools → Application → Storage → Clear site data), then reload.
-  2. **Use jsDelivr** instead of raw GitHub:
-     ```javascript
-     samples('https://cdn.jsdelivr.net/gh/spacemonqi/psyTech-public@main/strudel.json')
-     ```
-  3. **Inline load** (never fetches strudel.json — always works):
-     ```javascript
-     samples({
-       kick: "TT_Kick_F%230.wav",
-       bonus: "TT_BonusKicks01_02_F%23_137bpm_BassSolo.wav",
-       dry_min: "TTS_TS03_06_F%23min_137bpm_DRY.wav",
-       dry_phryg: "TTS_TS03_07_F%23Phrigian_137bpm_DRY.wav",
-       wet_dsmin: "TTS_TS03_13_D%23min_137bpm_WET.wav",
-       wet_fsmin: "TTS_TS03_14_F%23min_137bpm_WET.wav",
-     }, "https://cdn.jsdelivr.net/gh/spacemonqi/psyTech-public@main/wav/")
-     ```
-- **Caching**: Do NOT append `?version=` to the `github:` shortcut — it breaks URL parsing. For cache-busting on full URLs, use `?version=2` at the end of a raw or jsDelivr URL.
+- **Caching**: Strudel (and browsers) aggressively cache samples. Bump the version on the **full raw URL** (not the `github:` shortcut): `samples('https://raw.githubusercontent.com/.../strudel.json?version=2')`.
 - **`#` in filenames**: Encode as `%23` in `strudel.json` paths (e.g. `F%23min` not `F#min`), or rename files to avoid `#`.
 - **Pitched samples** (e.g. piano, melodic instruments): Use nested objects in `strudel.json`:
   ```json
@@ -207,8 +188,7 @@ samples('http://localhost:5432/')
 Once set up, loading your entire PsyTech sample library is as simple as:
 
 ```javascript
-samples('https://cdn.jsdelivr.net/gh/spacemonqi/psyTech-public@main/strudel.json')
-// or: samples('github:spacemonqi/psyTech-public')
+samples('github:yourusername/psyTech-public')
 ```
 
 This is the cleanest, most maintainable, and most "Strudel-native" way to work with custom samples.
