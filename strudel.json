@@ -1,0 +1,9 @@
+{
+  "_base": "https://raw.githubusercontent.com/spacemonqi/psyTech-public/main/wav/",
+  "kick": "TT_Kick_F#0.wav",
+  "bonus": "TT_BonusKicks01_02_F#_137bpm_BassSolo.wav",
+  "dry_min": "TTS_TS03_06_F#min_137bpm_DRY.wav",
+  "dry_phryg": "TTS_TS03_07_F#Phrigian_137bpm_DRY.wav",
+  "wet_dsmin": "TTS_TS03_13_D#min_137bpm_WET.wav",
+  "wet_fsmin": "TTS_TS03_14_F#min_137bpm_WET.wav"
+}
