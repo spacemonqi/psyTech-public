@@ -1,9 +1,9 @@
 {
-  "_base": "https://raw.githubusercontent.com/spacemonqi/psyTech-public/main/wav/",
-  "kick": "TT_Kick_F%230.wav",
-  "bonus": "TT_BonusKicks01_02_F%23_137bpm_BassSolo.wav",
-  "dry_min": "TTS_TS03_06_F%23min_137bpm_DRY.wav",
-  "dry_phryg": "TTS_TS03_07_F%23Phrigian_137bpm_DRY.wav",
-  "wet_dsmin": "TTS_TS03_13_D%23min_137bpm_WET.wav",
-  "wet_fsmin": "TTS_TS03_14_F%23min_137bpm_WET.wav"
+  "_base": "https://raw.githubusercontent.com/spacemonqi/psyTech-public/main/",
+  "f#_kick": "TT_Kick_F%230.wav",
+  "f#_bass": "TT_BonusKicks01_02_F%23_137bpm_BassSolo.wav",
+  "f#min_arp": "TTS_TS03_06_F%23min_137bpm_DRY.wav",
+  "f#phrig_stepper": "TTS_TS03_07_F%23Phrigian_137bpm_DRY.wav",
+  "d#min_rise": "TTS_TS03_13_D%23min_137bpm_WET.wav",
+  "f#min_fall": "TTS_TS03_14_F%23min_137bpm_WET.wav"
 }

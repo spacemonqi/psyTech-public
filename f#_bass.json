@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "f#_bass",
+  "profile": [
+    {
+      "t": 0.2485,
+      "r": 0.0043
+    },
+    {
+      "t": 0.2681,
+      "r": 0.3656
+    },
+    {
+      "t": 0.499,
+      "r": 0.1642
+    },
+    {
+      "t": 0.501,
+      "r": 0.7589
+    },
+    {
+      "t": 0.7632,
+      "r": 0.6238
+    },
+    {
+      "t": 0.773,
+      "r": 0.9812
+    },
+    {
+      "t": 1,
+      "r": 0.6592
+    }
+  ],
+  "meta": {
+    "sourceWav": "TT_BonusKicks01_02_F#_137bpm_BassSolo.wav",
+    "shapeGain": 0.9,
+    "curveAmount": 100,
+    "colorStart": "#ffca0a",
+    "colorEnd": "#ff7300"
+  }
+}
