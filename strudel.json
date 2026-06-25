@@ -5,5 +5,6 @@
   "f#min_arp": "TTS_TS03_06_F%23min_137bpm_DRY.wav",
   "f#phrig_stepper": "TTS_TS03_07_F%23Phrigian_137bpm_DRY.wav",
   "d#min_rise": "TTS_TS03_13_D%23min_137bpm_WET.wav",
-  "f#min_fall": "TTS_TS03_14_F%23min_137bpm_WET.wav"
+  "f#min_fall": "TTS_TS03_14_F%23min_137bpm_WET.wav",
+  "tick": "TT_Kick_F#0_tick.wav"
 }
