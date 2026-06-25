@@ -6,70 +6,40 @@
       "r": 0.0017
     },
     {
-      "t": 0.1019,
-      "r": 0.2923
+      "t": 0.1117,
+      "r": 0.3888
     },
     {
-      "t": 0.1939,
-      "r": 0.8279
+      "t": 0.2641,
+      "r": 1.2154
     },
     {
-      "t": 0.2118,
-      "r": 0.7737
+      "t": 0.4294,
+      "r": 2.3376
     },
     {
-      "t": 0.2313,
-      "r": 0.9343
+      "t": 0.4314,
+      "r": 0.3584
     },
     {
-      "t": 0.2529,
-      "r": 0.786
-    },
-    {
-      "t": 0.2695,
-      "r": 0.9147
-    },
-    {
-      "t": 0.2831,
-      "r": 0.7871
-    },
-    {
-      "t": 0.2961,
-      "r": 1.0558
-    },
-    {
-      "t": 0.3129,
-      "r": 0.819
-    },
-    {
-      "t": 0.3232,
-      "r": 0.9614
-    },
-    {
-      "t": 0.4127,
-      "r": 0.2153
-    },
-    {
-      "t": 0.5847,
-      "r": 0.0692
-    },
-    {
-      "t": 0.966,
-      "r": 0
+      "t": 1,
+      "r": 0.0019
     }
   ],
   "meta": {
     "sourceWav": "TTS_TS03_13_D#min_137bpm_WET.wav",
     "trimStartSec": 0,
-    "trimEndSec": 4.9415,
-    "ampPadTop": 1.1349,
-    "ampPadBottom": 1,
+    "trimEndSec": 5.1154,
+    "wavTrimStartSec": 0,
+    "wavTrimEndSec": 5.1154,
+    "ampPadTop": 2.6479,
+    "ampPadBottom": 3.3783,
     "wavDurationSec": 5.1154,
     "shapeGain": 1,
     "curveAmount": 100,
-    "colorStart": "#00fad0",
-    "colorEnd": "#8ff8ff",
-    "extrudeDepth": 0.65,
+    "colorStart": "#ff4df0",
+    "colorEnd": "#ff4df0",
+    "extrudeDepth": 1,
     "waveform": [
       {
         "t": 0,

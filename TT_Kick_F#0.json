@@ -3,40 +3,42 @@
   "profile": [
     {
       "t": 0,
-      "r": 0
+      "r": 0.4207
     },
     {
-      "t": 0.002,
-      "r": 1.0367
+      "t": 0.0528,
+      "r": 1
     },
     {
-      "t": 0.2273,
-      "r": 0.4273
+      "t": 0.3346,
+      "r": 0.5371
     },
     {
-      "t": 0.3348,
-      "r": 0.4652
+      "t": 0.5773,
+      "r": 0.3842
     },
     {
-      "t": 0.613,
-      "r": 0.3526
+      "t": 0.6067,
+      "r": 0.4231
     },
     {
       "t": 1,
-      "r": 0
+      "r": 0.1405
     }
   ],
   "meta": {
     "sourceWav": "TT_Kick_F#0.wav",
     "trimStartSec": 0,
     "trimEndSec": 0.4512,
-    "ampPadTop": 1.1047,
-    "ampPadBottom": 1.1542,
+    "wavTrimStartSec": 0,
+    "wavTrimEndSec": 0.4512,
+    "ampPadTop": 2.6479,
+    "ampPadBottom": 3.3783,
     "wavDurationSec": 0.4512,
-    "shapeGain": 1,
-    "curveAmount": 100,
+    "shapeGain": 1.48,
+    "curveAmount": 26,
     "colorStart": "#ff0000",
-    "colorEnd": "#480e0e",
+    "colorEnd": "#ff0000",
     "extrudeDepth": 0.7,
     "waveform": [
       {
