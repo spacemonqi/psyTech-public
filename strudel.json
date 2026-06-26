@@ -7,5 +7,7 @@
   "d#min_rise": "TTS_TS03_13_D%23min_137bpm_WET.wav",
   "f#min_fall": "TTS_TS03_14_F%23min_137bpm_WET.wav",
   "white_noise": "white_noise.wav",
+  "d#_hoover": "d#_hoover.wav",
+  "hihat": "hihat.wav",
   "tick": "TT_Kick_F#0_tick.wav"
 }
